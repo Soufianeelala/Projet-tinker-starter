@@ -1,0 +1,52 @@
+ header{ 
+        background-image: url('/assets/img/banner_bg.jpg');
+        width: auto;
+        height: 800px;
+        background-size: cover;
+        color: rgb(255, 255, 255);
+        
+        .tete{
+            nav{
+                display: flex;
+                justify-content: space-around;
+                h2{
+                    padding: 15px;
+                }
+
+                ul{
+                    display: flex;
+                    li{
+                        padding: 20px;
+    
+                    }
+                }
+            }
+        }
+        .tinker{
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+            height: 600px; 
+            margin: 0 auto;
+            h1{
+                font-size: xx-large;
+                #html5{
+                    color:aqua;
+                }
+            }
+            p{
+                width: 40%;
+                text-align: center;
+                padding-top: 18px;
+            }
+            a{
+                background-color: rgb(255, 255, 255);
+                border-radius: 50px;
+                padding: 16px;
+                margin-top: 28px;
+            }
+
+        }
+}

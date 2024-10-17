@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  background-image: url("/assets/img/banner_bg.jpg");
+  width: auto;
+  height: 800px;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+}
+header .tete nav {
+  display: flex;
+  justify-content: space-around;
+}
+header .tete nav h2 {
+  padding: 15px;
+}
+header .tete nav ul {
+  display: flex;
+}
+header .tete nav ul li {
+  padding: 20px;
+}
+header .tinker {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  margin: 0 auto;
+}
+header .tinker h1 {
+  font-size: xx-large;
+}
+header .tinker h1 #html5 {
+  color: rgb(0, 255, 255);
+}
+header .tinker p {
+  width: 40%;
+  text-align: center;
+  padding-top: 18px;
+}
+header .tinker a {
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+  padding: 16px;
+  margin-top: 28px;
+}
+
+/*# sourceMappingURL=style.css.map */
