@@ -1,0 +1,55 @@
+@use"../abstract/variable" as cl;
+@use"../abstract/variable" as rs;
+@use"../abstract/variable" as ft;
+
+
+@media screen and (max-width: rs.$md) {
+
+
+// ________________________MAIN_____
+
+    main{
+        //    parti article---------------------------------
+            .parti_raticle{
+            
+                display: flex;
+                flex-direction: column;
+                height: 50%;
+                
+                article{
+                    margin-top: 20px;
+                    margin-bottom:30px ;
+                }
+            }
+        // la partie OUR GALLERY----------------------------
+
+            .parti_ourgallery_img{
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                justify-content: center;
+                text-align: center;
+            }
+            .ourgallery_img{
+                margin: 0px;
+
+                img{
+                    width:80% ;
+                }
+
+            }
+        }
+    // FOOTER______________RRRR
+    footer{
+        
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        height: 550px;
+    }
+
+
+}
+

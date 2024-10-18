@@ -1,16 +1,20 @@
- header{ 
+@use"../abstract/variable" as cl;
+@use"../abstract/variable" as ft;
+
+header{ 
         background-image: url('/assets/img/banner_bg.jpg');
         width: auto;
-        height: 800px;
+        height: 663px;
         background-size: cover;
         color: rgb(255, 255, 255);
-        
+        font-family: ft.$fontR_R;
+    //  la bare de menu -------------------  
         .tete{
             nav{
                 display: flex;
                 justify-content: space-around;
-                h2{
-                    padding: 15px;
+                
+               
                 }
 
                 ul{
@@ -33,7 +37,11 @@
             h1{
                 font-size: xx-large;
                 #html5{
-                    color:aqua;
+               color:cl.$aqua;
+
+                }
+                #TINKER{
+                    color:cl.$jaune
                 }
             }
             p{
@@ -47,6 +55,4 @@
                 padding: 16px;
                 margin-top: 28px;
             }
-
-        }
-}
+ }

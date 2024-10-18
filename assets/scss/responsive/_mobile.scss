@@ -1,0 +1,121 @@
+@use"../abstract/variable" as cl;
+@use"../abstract/variable" as rs;
+@use"../abstract/variable" as ft;
+
+
+@media screen and (max-width: rs.$sm) {
+    
+    header{ 
+       
+    //  la bare de menu -------------------  
+        .tete{
+            nav{
+                display: flex;
+                flex-wrap:wrap ;              
+                }
+
+                ul{
+                    display: flex;
+                    flex-wrap:wrap ;
+                    justify-content: center;
+                   
+                }
+            }
+        }
+        .tinker{
+            display: flex;
+            flex-direction: column;
+            flex-wrap:wrap ;
+            justify-content: center;
+            h1{
+                font-size: xx-large;
+                text-align: center;
+            }
+           
+ }
+
+// ________________________MAIN_____
+
+main{
+    //    parti article---------------------------------
+        .parti_raticle{
+           
+            display: flex;
+            flex-direction: column;
+            height: 50%;
+            
+            article{
+                margin-top: 20px;
+                margin-bottom:30px ;
+            }
+        }
+     // la partie OUR GALLERY----------------------------
+
+        .parti_ourgallery_img{
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .ourgallery_img{
+            margin: 0px;
+
+            img{
+                width:80% ;
+            }
+
+        }
+    }
+
+
+    
+    // la paretie RICHARD____Beall---------------------------
+    .richard{
+       
+        height: 550px;
+    }
+
+
+     // <!-- OUR_____BLOG __________POSTS ////////////////////////-->
+
+    .our_blog_posts_img{
+        background-image: url('../img/blog-bg.jpg');
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+        .our_blog_posts{
+            width: 100%;
+            margin-top:50px ;
+        }
+    }
+    // CONTACT US_____________________________________
+.contact_us{
+    div{   
+    width: 100%;
+    }
+}
+    // FOOTER______________RRRR
+    footer{
+        
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        height: 550px;
+    }
+    
+    
+    
+    
+    
+    
+}
+
+    
+
+
+
+
+

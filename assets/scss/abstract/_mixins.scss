@@ -1,0 +1,108 @@
+@use"../abstract/variable" as cl;
+// les icones de Larticle1
+
+@mixin icone{
+    border-radius: 100%;
+    background-color:cl.$jaune; 
+    border: 3px solid white; 
+    border-radius: 50%; 
+    width: 100px; 
+    height: 100px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    
+}
+
+// les liens a Larticle_______1---------------
+
+@mixin lien_raticle_1{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:cl.$aqua;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 40px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    
+    &:hover {
+      background-color:cl.$jaune;
+      transform: scale(1.05);
+    }
+  
+    &:active {
+      background-color:cl.$jaune;
+      transform: scale(1);
+    }
+  }
+  
+  // les lines a Larticle_______1---------------
+
+@mixin tr {
+    width: 80%; 
+    height: 0.5px; 
+    background-color: rgb(255, 255, 255); 
+    margin: 15px 0; 
+}
+
+// le logo------------------------
+@mixin logo {
+    font-size: 2rem; /* Taille du texte (optionnel) */
+  
+    /* Styliser la première lettre */
+    &::first-letter {
+      color:cl.$jaune; /* Couleur jaune pour la première lettre */
+      font-weight: bold; /* Rendre la première lettre en gras si nécessaire */
+    }
+  }
+
+//   les lien article our gallaery----------------
+
+@mixin lien_Our_Gallery{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:cl.$aqua;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    
+    &:hover {
+      background-color:cl.$jaune;
+      transform: scale(1.05);
+    }
+  
+    &:active {
+      background-color:cl.$jaune;
+      transform: scale(1);
+    }
+  }
+    // <!-- OUR_____BLOG __________POSTS ////////////////////////-->
+    @mixin lien_our_blog_posts{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:white;
+    color: black;
+    width: 220px;
+    text-decoration: none;
+    border-radius: 0px;
+    margin-top: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    
+    &:hover {
+        color:cl.$jaune;
+        transform: scale(1.05);
+    }
+    
+    &:active {
+        color:cl.$aqua;
+        transform: scale(1);
+    }
+    }
+    // <!-- partie CONTACT_______________US -->
+

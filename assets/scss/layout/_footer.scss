@@ -1,0 +1,42 @@
+@use"../abstract/variable" as cl;
+footer{
+    background-color: rgb(64, 64, 64);
+    color: white;
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    height: 250px;
+    h4{
+        padding: 25px;
+
+    }
+    #templatemo{
+        color:cl.$jaune;
+        display: inline;
+    }
+
+    span{
+        display:block;
+    }
+    .location{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .tr_footer {
+            width: 1px; /* Largeur de la ligne */
+            height: 100px; /* Hauteur de la ligne, ajuste selon tes besoins */
+            background-color: rgb(109, 109, 109); /* Couleur de la ligne */
+            margin: 15px; /* Centre la ligne horizontalement */
+        }
+        
+    }
+    .get_social{
+        display: flex;
+        justify-content: center;
+       
+        div{
+            padding: 12px;
+            
+        }
+    }
+}

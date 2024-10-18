@@ -1,5 +1,189 @@
+@use"../abstract/variable" as cl;
+
 main{
+//    parti article---------------------------------
     .parti_raticle{
+        background-image: url('/assets/img/about-bg.jpg');
+        width: auto;
+        height: 800px;
+        background-size: cover;
         display: flex;
+        justify-content: center;
+        color: white;
+        align-items: center;
+        article{
+
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            
+            align-content:end;
+            text-align: center; /* Centre le texte */
+            h4{
+                margin-top: 40px;
+            }
+            p{
+                margin-top: 20px;
+                font-size: 14px;
+                width: 80%;
+            }
+
+        }
+
     }
+    // la partie OUR GALLERY----------------------------
+
+    .parti_ourgallery_img{
+        display: flex;
+        justify-content: start;
+
+        .ourgallery{ 
+               
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                background-color: cl.$aqua;
+                color: white;
+            .ourgallery_positin{  
+                display: flex;
+                flex-direction: column;
+                align-items:start ;
+                margin: auto;
+                justify-content: center;
+                #ul_ourgallery{
+                    display: flex;
+                    flex-direction: column;
+                    align-content: end;               
+                }
+                p{
+                    width: 70%;
+                }
+            }
+        }
+    }
+        .ourgallery_img{
+            margin: 20px;
+
+            img{
+                width:355px ;
+            }
+
+        }
+    }
+
+    // la paretie RICHARD____Beall---------------------------
+    .richard{
+        background-color:cl.$jaune ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 400px;
+
+        .cadre_blanc{
+            text-align: center;
+            margin: auto;
+            background-color: rgb(255, 255, 255);
+            width: 50%;
+            p{
+                padding: 40px;
+            }
+
+        }
+        .Richard_Beal{
+            text-align: center;
+            color: white;
+            margin-top: 20px;
+           h2{
+            margin-bottom: 10px;
+           }
+            span{
+                display: block;
+
+            }
+        }
+    }
+    // <!-- OUR_____BLOG __________POSTS ////////////////////////-->
+
+    .our_blog_posts_img{
+        background-image: url('../img/blog-bg.jpg');
+        height: 500px;
+        display: flex;
+        justify-content: start;  
+        .our_blog_posts{
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            justify-content: center;
+            background-color: #1b12125b;
+            border: 0px solid #000; 
+            border-radius: 0px; 
+            box-shadow: 0px 0px 0px rgba(100, 100, 100, 100);
+               div{
+                    color: white;
+                    width:50% ; 
+                    margin: auto;  
+                
+                    h4{
+                        justify-content: right;
+                    }
+                    p{
+                    margin-bottom: 35px;
+                    
+                    }
+                    a{
+                        margin: 10px;
+                    }
+                }
+                ul{
+                    text-align: center;
+                }
+            
+        }
+        .lorem_img_blog_item_01{
+            margin: 20px;
+
+            .img_blog_item_01{
+                background-image: url('../img/blog_item_01.jpg');
+                height: 320px;
+            }
+            .lorem_blog_item_01{
+                background-color: white;
+                padding: 15px;
+                span{
+                    display: block;
+                    color:cl.$aqua;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+        
+       
 }
+ // CONTACT US_____________________________________
+ .contact_us{
+    background-color:#585F65; 
+    padding: 40px; 
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        h4 {
+            margin-bottom: 15px; 
+          }
+          p{
+             
+          }
+
+    }
+   
+} 

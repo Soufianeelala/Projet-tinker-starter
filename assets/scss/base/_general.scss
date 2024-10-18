@@ -1,2 +1,96 @@
-// @use"../abstract/variable";
+ @use"../abstract/variable" as cl;
+@use "../abstract/mixins" as mx;
 
+// le Logooooooo--------
+#logo_1{
+    @include mx.logo;              
+    padding: 15px;
+}
+
+// les icones de Larticle1
+
+#icone1{
+    @include mx.icone ;
+}
+
+#icone2{
+    @include mx.icone ;
+}
+#icone3{
+    @include mx.icone ;
+}
+#icone4{
+    @include mx.icone ;
+}
+
+
+// les liens a Larticle_______1---------------
+#lien_raticle_1_1{
+    @include mx.lien_raticle_1 ;
+}
+#lien_raticle_1_2{
+    @include mx.lien_raticle_1 ;
+}
+#lien_raticle_1_3{
+    @include mx.lien_raticle_1 ;
+}
+#lien_raticle_1_4{
+    @include mx.lien_raticle_1 ;
+}
+
+  // les lines a Larticle_______1---------------
+#tr1{
+    @include mx.tr ;
+}
+#tr2{
+    @include mx.tr ;
+}
+#tr3{
+    @include mx.tr ;
+}
+#tr4{
+    @include mx.tr ;
+}
+// la parti OUR GALLERY--------------------
+#tr_our_gallery{
+    @include mx.tr ;
+}
+
+// la parti lien OUR________GALLERY-------------------
+#lien_our_gallery_1{
+    @include mx.lien_Our_Gallery
+}
+#lien_our_gallery_2{
+    @include mx.lien_Our_Gallery
+}
+#lien_our_gallery_3{
+    @include mx.lien_Our_Gallery
+}
+#lien_our_gallery_4{
+    @include mx.lien_Our_Gallery
+}
+#lien_our_gallery_5{
+    @include mx.lien_Our_Gallery
+}
+      // <!-- OUR_____BLOG __________POSTS ////////////////////////-->
+
+#our_blog_tr{
+    @include mx.tr ;
+}
+
+.our_blog_posts a{
+     @include mx.lien_our_blog_posts
+ }
+     // <!-- partie CONTACT_______________US -->
+#tr_contact_us{
+    @include mx.tr ;
+}
+
+#lien_contact_us{
+    @include mx.lien_raticle_1 ;
+}
+//  F__ O__ O__ T___ E___ R______
+#logo_footer{
+    @include mx.logo;              
+    padding: 15px;
+}
