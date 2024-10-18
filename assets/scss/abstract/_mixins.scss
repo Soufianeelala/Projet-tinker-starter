@@ -1,4 +1,6 @@
 @use"../abstract/variable" as cl;
+@use"../abstract/variable" as ft;
+
 // les icones de Larticle1
 
 @mixin icone{
@@ -17,6 +19,7 @@
 // les liens a Larticle_______1---------------
 
 @mixin lien_raticle_1{
+    font-family: ft.$fontR_B;
     display: inline-block;
     padding: 10px 20px;
     background-color:cl.$aqua;
@@ -62,6 +65,7 @@
 
 @mixin lien_Our_Gallery{
     display: inline-block;
+    font-family: ft.$fontR_B;
     padding: 10px 20px;
     background-color:cl.$aqua;
     color: #fff;
@@ -70,7 +74,7 @@
     margin-top: 10px;
     font-weight: bold;
     transition: background-color 0.3s ease, transform 0.2s ease;
-    
+    font-family: ft.$fontR_B; 
     &:hover {
       background-color:cl.$jaune;
       transform: scale(1.05);
@@ -84,6 +88,7 @@
     // <!-- OUR_____BLOG __________POSTS ////////////////////////-->
     @mixin lien_our_blog_posts{
     display: inline-block;
+    font-family: ft.$fontR_B;
     padding: 10px 20px;
     background-color:white;
     color: black;
@@ -105,4 +110,24 @@
     }
     }
     // <!-- partie CONTACT_______________US -->
+    @mixin lien_get_social{
+      display: inline-block;
+      font-family: ft.$fontR_B;
+      color:white;
+      text-decoration: none;
+      border-radius: 0px;
+      margin-top: 10px;
+      font-weight: bold;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+      
+      &:hover {
+          color:cl.$jaune;
+          transform: scale(1.05);
+      }
+      
+      &:active {
+          color:cl.$aqua;
+          transform: scale(1);
+      }
+      }
 

@@ -94,3 +94,6 @@
     @include mx.logo;              
     padding: 15px;
 }
+.get_social a{
+    @include mx.lien_get_social ;
+}

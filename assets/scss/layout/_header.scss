@@ -2,57 +2,92 @@
 @use"../abstract/variable" as ft;
 
 header{ 
-        background-image: url('/assets/img/banner_bg.jpg');
-        width: auto;
-        height: 663px;
-        background-size: cover;
-        color: rgb(255, 255, 255);
-        font-family: ft.$fontR_R;
-    //  la bare de menu -------------------  
-        .tete{
-            nav{
-                display: flex;
-                justify-content: space-around;
-                
-               
-                }
-
-                ul{
-                    display: flex;
-                    li{
-                        padding: 20px;
-    
-                    }
-                }
-            }
-        }
-        .tinker{
+    background-image: url('/assets/img/banner_bg.jpg');
+    width: auto;
+    height: 663px;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    font-family: ft.$fontR_R;
+//  la bare de menu -------------------  
+    .tete{
+        nav{
             display: flex;
-            flex-direction: column;
-            align-content: center;
-            align-items: center;
-            justify-content: center;
-            height: 600px; 
-            margin: 0 auto;
-            h1{
-                font-size: xx-large;
-                #html5{
-               color:cl.$aqua;
-
-                }
-                #TINKER{
-                    color:cl.$jaune
-                }
-            }
-            p{
-                width: 40%;
-                text-align: center;
-                padding-top: 18px;
-            }
-            a{
-                background-color: rgb(255, 255, 255);
+            justify-content: space-around;
+            a{  
+                font-family: ft.$fontR_B;
+                color: rgb(255, 255, 255);
                 border-radius: 50px;
                 padding: 16px;
                 margin-top: 28px;
+                
+                
+                &:hover {
+                    color:cl.$jaune;
+                    transform: scale(1.05);
+                }
+                
+                &:active {
+                    color:cl.$aqua;
+                    transform: scale(1);
+    
+                }    
             }
- }
+            
+            }
+
+            ul{
+                display: flex;
+                li{
+                    padding: 20px;
+
+                }
+            }
+    }
+}
+    .tinker{
+        display: flex;
+        font-family: ft.$fontR_B;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        height: 600px; 
+        margin: 0 auto;
+        h1{
+            font-size: xx-large;
+            font-family: ft.$fontR_B;
+            #html5{
+            color:cl.$aqua;
+            font-family: ft.$fontR_B;
+
+            }
+            #TINKER{
+                color:cl.$jaune;
+                font-family: ft.$fontR_B;
+            }
+        }
+        p{
+            width: 40%;
+            text-align: center;
+            padding-top: 18px;
+        }
+        a{  
+            font-family: ft.$fontR_B;
+            background-color: rgb(255, 255, 255);
+            border-radius: 50px;
+            padding: 16px;
+            margin-top: 28px;
+            
+            
+            &:hover {
+                color:cl.$jaune;
+                transform: scale(1.05);
+            }
+            
+            &:active {
+                color:cl.$aqua;
+                transform: scale(1);
+
+            }    
+        }
+    }

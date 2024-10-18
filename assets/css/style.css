@@ -65,6 +65,7 @@
 }
 
 #lien_raticle_1_1 {
+  font-family: "Roboto-Bold";
   display: inline-block;
   padding: 10px 20px;
   background-color: aqua;
@@ -85,6 +86,7 @@
 }
 
 #lien_raticle_1_2 {
+  font-family: "Roboto-Bold";
   display: inline-block;
   padding: 10px 20px;
   background-color: aqua;
@@ -105,6 +107,7 @@
 }
 
 #lien_raticle_1_3 {
+  font-family: "Roboto-Bold";
   display: inline-block;
   padding: 10px 20px;
   background-color: aqua;
@@ -125,6 +128,7 @@
 }
 
 #lien_raticle_1_4 {
+  font-family: "Roboto-Bold";
   display: inline-block;
   padding: 10px 20px;
   background-color: aqua;
@@ -181,6 +185,7 @@
 
 #lien_our_gallery_1 {
   display: inline-block;
+  font-family: "Roboto-Bold";
   padding: 10px 20px;
   background-color: aqua;
   color: #fff;
@@ -189,6 +194,7 @@
   margin-top: 10px;
   font-weight: bold;
   transition: background-color 0.3s ease, transform 0.2s ease;
+  font-family: "Roboto-Bold";
 }
 #lien_our_gallery_1:hover {
   background-color: #F5C45D;
@@ -201,6 +207,7 @@
 
 #lien_our_gallery_2 {
   display: inline-block;
+  font-family: "Roboto-Bold";
   padding: 10px 20px;
   background-color: aqua;
   color: #fff;
@@ -209,6 +216,7 @@
   margin-top: 10px;
   font-weight: bold;
   transition: background-color 0.3s ease, transform 0.2s ease;
+  font-family: "Roboto-Bold";
 }
 #lien_our_gallery_2:hover {
   background-color: #F5C45D;
@@ -221,6 +229,7 @@
 
 #lien_our_gallery_3 {
   display: inline-block;
+  font-family: "Roboto-Bold";
   padding: 10px 20px;
   background-color: aqua;
   color: #fff;
@@ -229,6 +238,7 @@
   margin-top: 10px;
   font-weight: bold;
   transition: background-color 0.3s ease, transform 0.2s ease;
+  font-family: "Roboto-Bold";
 }
 #lien_our_gallery_3:hover {
   background-color: #F5C45D;
@@ -241,6 +251,7 @@
 
 #lien_our_gallery_4 {
   display: inline-block;
+  font-family: "Roboto-Bold";
   padding: 10px 20px;
   background-color: aqua;
   color: #fff;
@@ -249,6 +260,7 @@
   margin-top: 10px;
   font-weight: bold;
   transition: background-color 0.3s ease, transform 0.2s ease;
+  font-family: "Roboto-Bold";
 }
 #lien_our_gallery_4:hover {
   background-color: #F5C45D;
@@ -261,6 +273,7 @@
 
 #lien_our_gallery_5 {
   display: inline-block;
+  font-family: "Roboto-Bold";
   padding: 10px 20px;
   background-color: aqua;
   color: #fff;
@@ -269,6 +282,7 @@
   margin-top: 10px;
   font-weight: bold;
   transition: background-color 0.3s ease, transform 0.2s ease;
+  font-family: "Roboto-Bold";
 }
 #lien_our_gallery_5:hover {
   background-color: #F5C45D;
@@ -288,6 +302,7 @@
 
 .our_blog_posts a {
   display: inline-block;
+  font-family: "Roboto-Bold";
   padding: 10px 20px;
   background-color: white;
   color: black;
@@ -315,6 +330,7 @@
 }
 
 #lien_contact_us {
+  font-family: "Roboto-Bold";
   display: inline-block;
   padding: 10px 20px;
   background-color: aqua;
@@ -344,6 +360,33 @@
   font-weight: bold; /* Rendre la première lettre en gras si nécessaire */
 }
 
+.get_social a {
+  display: inline-block;
+  font-family: "Roboto-Bold";
+  color: white;
+  text-decoration: none;
+  border-radius: 0px;
+  margin-top: 10px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.get_social a:hover {
+  color: #F5C45D;
+  transform: scale(1.05);
+}
+.get_social a:active {
+  color: aqua;
+  transform: scale(1);
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("/assets/font/Roboto-Bold.ttf");
+}
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("/assets/font/Roboto-Regular.ttf");
+}
 header {
   background-image: url("/assets/img/banner_bg.jpg");
   width: auto;
@@ -356,6 +399,21 @@ header .tete nav {
   display: flex;
   justify-content: space-around;
 }
+header .tete nav a {
+  font-family: "Roboto-Bold";
+  color: rgb(255, 255, 255);
+  border-radius: 50px;
+  padding: 16px;
+  margin-top: 28px;
+}
+header .tete nav a:hover {
+  color: #F5C45D;
+  transform: scale(1.05);
+}
+header .tete nav a:active {
+  color: aqua;
+  transform: scale(1);
+}
 header .tete ul {
   display: flex;
 }
@@ -365,6 +423,7 @@ header .tete ul li {
 
 .tinker {
   display: flex;
+  font-family: "Roboto-Bold";
   flex-direction: column;
   align-content: center;
   align-items: center;
@@ -374,12 +433,15 @@ header .tete ul li {
 }
 .tinker h1 {
   font-size: xx-large;
+  font-family: "Roboto-Bold";
 }
 .tinker h1 #html5 {
   color: aqua;
+  font-family: "Roboto-Bold";
 }
 .tinker h1 #TINKER {
   color: #F5C45D;
+  font-family: "Roboto-Bold";
 }
 .tinker p {
   width: 40%;
@@ -387,13 +449,23 @@ header .tete ul li {
   padding-top: 18px;
 }
 .tinker a {
+  font-family: "Roboto-Bold";
   background-color: rgb(255, 255, 255);
   border-radius: 50px;
   padding: 16px;
   margin-top: 28px;
 }
+.tinker a:hover {
+  color: #F5C45D;
+  transform: scale(1.05);
+}
+.tinker a:active {
+  color: aqua;
+  transform: scale(1);
+}
 
 main .parti_raticle {
+  font-family: "Roboto-Regular";
   background-image: url("/assets/img/about-bg.jpg");
   width: auto;
   height: 800px;
@@ -428,6 +500,7 @@ main .parti_ourgallery_img .ourgallery {
   justify-content: start;
   background-color: aqua;
   color: white;
+  padding-left: 50px;
 }
 main .parti_ourgallery_img .ourgallery .ourgallery_positin {
   display: flex;
@@ -437,11 +510,14 @@ main .parti_ourgallery_img .ourgallery .ourgallery_positin {
   justify-content: center;
 }
 main .parti_ourgallery_img .ourgallery .ourgallery_positin #ul_ourgallery {
+  font-family: "Roboto-Bold";
+  font-size: 25px;
   display: flex;
   flex-direction: column;
   align-content: end;
 }
 main .parti_ourgallery_img .ourgallery .ourgallery_positin p {
+  font-family: "Roboto-Regular";
   width: 70%;
 }
 main .ourgallery_img {
@@ -466,6 +542,7 @@ main .ourgallery_img img {
 }
 .richard .cadre_blanc p {
   padding: 40px;
+  font-family: "Roboto-Regular";
 }
 .richard .Richard_Beal {
   text-align: center;
@@ -500,15 +577,20 @@ main .ourgallery_img img {
   color: white;
   width: 50%;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
 }
 .our_blog_posts_img .our_blog_posts div h4 {
   justify-content: right;
 }
 .our_blog_posts_img .our_blog_posts div p {
+  font-family: "Roboto-Regular";
   margin-bottom: 35px;
 }
 .our_blog_posts_img .our_blog_posts div a {
-  margin: 10px;
+  margin: 0px;
 }
 .our_blog_posts_img .our_blog_posts ul {
   text-align: center;
@@ -518,11 +600,15 @@ main .ourgallery_img img {
 }
 .our_blog_posts_img .lorem_img_blog_item_01 .img_blog_item_01 {
   background-image: url("../img/blog_item_01.jpg");
+  background-size: cover;
   height: 320px;
 }
 .our_blog_posts_img .lorem_img_blog_item_01 .lorem_blog_item_01 {
   background-color: white;
   padding: 15px;
+}
+.our_blog_posts_img .lorem_img_blog_item_01 .lorem_blog_item_01 p {
+  font-family: "Roboto-Regular";
 }
 .our_blog_posts_img .lorem_img_blog_item_01 .lorem_blog_item_01 span {
   display: block;
@@ -550,6 +636,10 @@ main .ourgallery_img img {
 .contact_us div h4 {
   margin-bottom: 15px;
 }
+.contact_us div p {
+  font-family: "Roboto-Regular";
+}
+
 footer {
   background-color: rgb(64, 64, 64);
   color: white;
@@ -574,10 +664,10 @@ footer .location {
   align-items: center;
 }
 footer .location .tr_footer {
-  width: 1px; /* Largeur de la ligne */
-  height: 100px; /* Hauteur de la ligne, ajuste selon tes besoins */
-  background-color: rgb(109, 109, 109); /* Couleur de la ligne */
-  margin: 15px; /* Centre la ligne horizontalement */
+  width: 1px;
+  height: 100px;
+  background-color: rgb(109, 109, 109);
+  margin: 15px;
 }
 footer .get_social {
   display: flex;
